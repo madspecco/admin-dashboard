@@ -65,8 +65,9 @@ body {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
 }
-/* side bar styling */
 
+
+/* side bar styling */
 .sidebar {
     width: 32rem;
     background-color: brown; /* placeholder */
@@ -92,4 +93,31 @@ body {
     width: 2rem;
     height: 2rem;
     margin-right: 0.6rem;
+}
+
+
+/* announcements style */
+.announcements {
+    background-color: violet; /* placeholder */
+    padding: 1.25rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.announcements h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ann-item {
+    margin-bottom: 2.5rem;
+}
+
+.ann-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.3rem;
+}
+
+.ann-item p {
+    font-size: 1rem;
+    color: #777;
 }
