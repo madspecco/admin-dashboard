@@ -45,3 +45,33 @@ body {
     border-radius: 0.3rem;
     outline: none;
 }
+
+
+/* side bar styling */
+
+.sidebar {
+    width: 32rem;
+    background-color: brown; /* placeholder */
+    color: wheat;
+    padding: 1.25rem 0;
+}
+
+.sidebar-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.6rem;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+.sidebar-grid li {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-grid img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.6rem;
+}
