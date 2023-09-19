@@ -121,3 +121,21 @@ body {
     font-size: 1rem;
     color: #777;
 }
+
+
+/* trending style */
+.trending {
+    background-color:darkseagreen; /* placeholder */
+    padding: 1.25rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.trending h2 {
+    font-size: 1.5rem; /* Use rems for font size */
+    margin-bottom: 0.6rem; /* Use rems for spacing */
+}
+
+.trending-item h3 {
+    font-size: 1.25rem; /* Use rems for font size */
+    margin-bottom: 0.3rem; /* Use rems for spacing */
+}
