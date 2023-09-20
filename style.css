@@ -106,7 +106,9 @@ body {
     grid-column: 1;
     -ms-grid-column-span: 1;
     padding: 1rem;
-    background-color: aqua; /* placeholder */
+    
+    background-color: #191C24;
+    color:beige;
 }
 
 .sidebar .logo {
@@ -132,19 +134,24 @@ body {
     align-items: center;
 }
 
-/* .sidebar ul li img:hover ~ p {
-    border-bottom: 2px solid white; 
-} */
+.sidebar ul li img:hover ~ p {
+    cursor: pointer;
+    border-bottom: 1px solid #f5f5dc; 
+}
 
+.sidebar ul li img {
+    cursor: pointer;
+}
 .sidebar ul li p {
     cursor: pointer;
     border: 0.6rem solid transparent;
     /* font weight and all the shebang */
+    font-weight: bold;
 }
 
-/* .sidebar ul li p:hover {
-    border-bottom: 2px solid white; 
-} */
+.sidebar ul li p:hover {
+    border-bottom: 2px solid beige;
+}
 
 
 /* main content */
