@@ -68,6 +68,34 @@ body {
     cursor: pointer;
 }
 
+.main-profile-container{
+    display: grid;
+    grid-template: 1fr 1fr / auto 1fr;
+    gap: 0.5rem 1rem;
+}
+
+.main-profile-container .welcome-text {
+    margin: 0;
+    align-self: flex-end;
+}
+
+.main-profile-container .main-user-name {
+    margin: 0;
+    align-self: flex-start;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.buttons-container button {
+    cursor: pointer;
+    /* customize buttons here (font, size, radius etc)*/
+}
+
 
 /* side bar styling */
 .sidebar {
