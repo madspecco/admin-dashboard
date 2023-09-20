@@ -154,12 +154,41 @@ body {
 .main-content .ann-and-trending {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.main-content .announcements > .trending{
+.main-content .ann-and-trending > div {
+    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
 }
+
+.main-content .ann-and-trending > div h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.main-content .ann-and-trending .ann-content,
+.main-content .ann-and-trending .trending-content {
+    background-color: whitesmoke;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+.main-content .ann-and-trending .ann-item h3,
+.main-content .ann-and-trending .ann-item p {
+    /* style text from announcements here */
+    color: blue;
+}
+
+.main-content .ann-and-trending .trend h3 {
+    /* style text from trends here */
+    color: dodgerblue;
+}
+
