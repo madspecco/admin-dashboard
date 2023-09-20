@@ -179,7 +179,7 @@ body {
 
 /* main content */
 .main-content {
-    background-color: #454850;
+    background-color: beige;
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 1rem 2rem;
@@ -187,7 +187,7 @@ body {
 }
 
 .main-content .projects-div {
-    background-color: aquamarine;
+    background-color: beige;
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -228,7 +228,7 @@ body {
 }
 
 .main-content .ann-and-trending > div {
-    background-color: yellowgreen;
+    background-color: beige;
     display: flex;
     flex-direction: column;
 }
@@ -240,7 +240,7 @@ body {
 
 .main-content .ann-and-trending .ann-content,
 .main-content .ann-and-trending .trending-content {
-    background-color: whitesmoke;
+    background-color: #454850;
 
     display: flex;
     flex: 1;
