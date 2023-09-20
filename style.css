@@ -48,6 +48,26 @@ body {
     border: none;
 }
 
+.profile-container {
+    background-color: hotpink;
+
+    display: flex;
+    grid-area: 1 / 2 / 2 / 3;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-container .notification-img {
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.profile-container .profile-img {
+    height: 1.5rem;
+    cursor: pointer;
+}
+
 
 /* side bar styling */
 .sidebar {
