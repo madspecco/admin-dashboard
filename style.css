@@ -205,7 +205,7 @@ body {
     font-size: 2rem;
     grid-column: 1 / -1;
     margin: 0;
-    color: #191C24;
+    color: rgb(25, 28, 36);
 }
 
 .main-content .projects-div .project {
@@ -214,6 +214,13 @@ body {
     grid-template: 1fr auto / 1rem 1fr;
 
     border-radius: 1rem;
+
+    box-shadow: 0 4px 8px rgba(25, 28, 36, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-content .projects-div .project:hover {
+    box-shadow: 0 5px 15px rgba(25, 28, 36, 0.8);
 }
 
 .main-content .projects-div .project .project-text {
