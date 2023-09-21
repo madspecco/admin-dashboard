@@ -4,6 +4,10 @@ body, h1, h2 {
     padding: 0;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: beige;
+}
 
 /* placeholder background color and base font */
 body {
