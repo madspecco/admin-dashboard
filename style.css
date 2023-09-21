@@ -201,6 +201,7 @@ body {
     font-size: 2rem;
     grid-column: 1 / -1;
     margin: 0;
+    color: #191C24;
 }
 
 .main-content .projects-div .project {
@@ -214,12 +215,14 @@ body {
 .main-content .projects-div .project .project-text {
     padding: 1rem 1rem 0;
     color: beige;
+    font-size: large;
+    letter-spacing: 0.001rem;
+    line-height: 1.5rem;
 }
 
 .main-content .projects-div .project .project-text .title{
     margin: 0;
     font-size: 1.5rem;
-
 }
 
 /* announcements and trending section */
@@ -238,6 +241,7 @@ body {
 .main-content .ann-and-trending > div h2 {
     font-size: 2rem;
     margin: 0;
+    color: #191C24;
 }
 
 .main-content .ann-and-trending .ann-content,
