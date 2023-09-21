@@ -8,7 +8,7 @@ body, h1, h2 {
 /* placeholder background color and base font */
 body {
     background-color:beige;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace, 'Arial';
     font-size: 16px;
     margin: 0;
     display: grid;
@@ -116,7 +116,9 @@ body {
     color:#191C24;
     width: 5rem;
     height: 3rem;
-    font-weight: bolder;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: large;
 }
 
 
@@ -255,11 +257,11 @@ body {
 .main-content .ann-and-trending .ann-item h3,
 .main-content .ann-and-trending .ann-item p {
     /* style text from announcements here */
-    color: blue;
+    color: beige;
 }
 
 .main-content .ann-and-trending .trend h3 {
     /* style text from trends here */
-    color: dodgerblue;
+    color: beige;
 }
 
