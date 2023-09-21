@@ -28,6 +28,10 @@ body {
     padding: 0.5rem 2rem;
 }
 
+.header .profile-container, .header .buttons-container {
+    margin-left: 50%;
+}
+
 .search-container {
     display: flex;
     grid-area: 1 / 1 / 2 / 2;
