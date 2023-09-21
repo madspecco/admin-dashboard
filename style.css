@@ -258,6 +258,17 @@ body {
     margin-top: 1.8rem;
 }
 
+
+.main-content .ann-and-trending .trend {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.main-content .ann-and-trending .trend img {
+    border-radius: 1rem;
+}
+
 .main-content .ann-and-trending .ann-item h3,
 .main-content .ann-and-trending .ann-item p {
     /* style text from announcements here */
