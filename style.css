@@ -261,6 +261,7 @@ body {
 .main-content .ann-and-trending .ann-item h3,
 .main-content .ann-and-trending .ann-item p {
     /* style text from announcements here */
+    margin-top: 0;
     color: beige;
 }
 
