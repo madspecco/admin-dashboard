@@ -72,9 +72,9 @@ body {
 }
 
 .profile-container .profile-img {
-    height: 1.5rem;
+    height: 2rem;
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .profile-container .username {
@@ -93,7 +93,7 @@ body {
 .main-profile-container .main-profile-img {
     width: 4rem;
     height: 4rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .main-profile-container .welcome-text {
@@ -127,6 +127,15 @@ body {
     font-family:monospace;
     font-weight: bold;
     font-size: large;
+
+    box-shadow: inset 0 0 0 0 #191C24;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.buttons-container button:hover {
+    box-shadow: inset 200px 0 0 0 #191C24;
+    color:beige;
 }
 
 
@@ -281,7 +290,8 @@ body {
 }
 
 .main-content .ann-and-trending .trend img {
-    border-radius: 1rem;
+    border-radius: 2.5rem;
+    height: 4rem;
 }
 
 .main-content .ann-and-trending .ann-item h3,
